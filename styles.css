@@ -1,0 +1,32 @@
+#main-container {
+  width: 80%;
+  margin: 4rem auto;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 20px;
+}
+
+.dynamic-div {
+  flex-grow: 1;
+  width: 33%;
+  height: 100px;
+  outline: 1px solid #828a6a;
+  background-color: #e6f4bd;
+}
+
+.btn {
+  margin-left: auto;
+  width: 2rem;
+  height: 2rem;
+  color: #fff;
+  border: none;
+  font-size: 20px;
+  display: block;
+}
+.add-btn {
+  margin-bottom: 10px;
+  background-color: #00ba53;
+}
+.remove-btn {
+  background-color: #ff5559;
+}
